@@ -4,12 +4,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-/**
- * *
- * <p>Created by irina on 09.06.2021.</p>
- * <p>Project: spring-xml-viewresolvers</p>
- * *
- */
+// the view name is not resolved here
 @Controller
 public class MyController {
     @RequestMapping("/page1")

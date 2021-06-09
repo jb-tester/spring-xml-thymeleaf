@@ -6,7 +6,7 @@
 
     <ctx:component-scan base-package="com.mytests.springmvc.xml.viewresolvers" />
     <mvc:annotation-driven />
-    <!--<ctx:annotation-config/>-->
+    <!--view name is not resolved here:-->
     <mvc:view-controller path="/" view-name="home"/>
     <bean id="templateResolver"
           class="org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver">
